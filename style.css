@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+}
+table,
+tr,
+td {
+  border: 3px solid rgba(204, 204, 204);
+  cursor: pointer;
+}
+
+label {
+  font-size: 20px;
+}
+
+input {
+  padding: 5px;
+}
+
+.navbar {
+  margin-top: 20px;
+}
+
+.grids {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: center;
+}
+
+#canvas {
+  border-collapse: collapse;
+  margin: 40px auto;
+  margin-bottom: 0;
+  height: 800px;
+  width: 800px;
+  border-bottom: 0;
+}
+#pallete {
+  width: 800px;
+  border-collapse: collapse;
+  margin: 40px auto;
+  margin-top: 0;
+  border-top: 0;
+}
